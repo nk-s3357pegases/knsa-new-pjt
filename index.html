@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="pt-BR" class="scroll-smooth">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>KNSA HUB | Inteligência Artificial Aplicada a Negócios Reais</title>
+
+    <!-- SEO base -->
+    <meta
+      name="description"
+      content="KNSA HUB aplica Inteligência Artificial, automações e integrações em operações que já estão rodando, eliminando retrabalho e liberando o time para decisões estratégicas."
+    />
+    <link rel="canonical" href="https://www.knsahub.com/" />
+    <meta name="theme-color" content="#000000" />
+
+    <!-- Favicons -->
+    <link rel="icon" type="image/x-icon" href="/favicon.ico" />
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
+    <link rel="icon" type="image/png" sizes="48x48" href="/favicon-48x48.png" />
+    <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="192x192"
+      href="/android-chrome-192x192.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="512x512"
+      href="/android-chrome-512x512.png"
+    />
+
+    <!-- Open Graph (Facebook, LinkedIn etc.) -->
+    <meta property="og:type" content="website" />
+    <meta property="og:locale" content="pt_BR" />
+    <meta
+      property="og:title"
+      content="KNSA HUB | Inteligência Artificial Aplicada a Negócios Reais"
+    />
+    <meta
+      property="og:description"
+      content="IA e automações conectadas aos sistemas que você já usa, para escalar atendimento e operação sem aumentar o time."
+    />
+    <meta property="og:url" content="https://www.knsahub.com/" />
+    <meta property="og:site_name" content="KNSA HUB" />
+    <!-- Ajuste o caminho da imagem se o arquivo tiver outro nome -->
+    <meta property="og:image" content="https://www.knsahub.com/og-image.png" />
+    <meta property="og:image:type" content="image/png" />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
+
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta
+      name="twitter:title"
+      content="KNSA HUB | Inteligência Artificial Aplicada a Negócios Reais"
+    />
+    <meta
+      name="twitter:description"
+      content="Parceiro de tecnologia para estruturar IA e automações que funcionam na prática, do comercial ao financeiro."
+    />
+    <meta name="twitter:image" content="https://www.knsahub.com/og-image.png" />
+
+    <!-- Fonte Inter -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Tailwind via CDN com tema customizado -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            fontFamily: {
+              sans: ['Inter', 'sans-serif'],
+            },
+            colors: {
+              brand: {
+                50: '#fafafa',
+                100: '#f4f4f5',
+                200: '#e4e4e7',
+                300: '#d4d4d8',
+                400: '#a1a1aa',
+                500: '#71717a',
+                600: '#52525b',
+                700: '#3f3f46',
+                800: '#27272a',
+                900: '#18181b',
+                950: '#09090b',
+              },
+              dark: {
+                900: '#050505',
+                800: '#0a0a0a',
+                700: '#171717',
+              },
+            },
+            keyframes: {
+              fall: {
+                '0%': { top: '-50%' },
+                '100%': { top: '150%' },
+              },
+            },
+            animation: {
+              'pulse-slow': 'pulse 8s cubic-bezier(0.4, 0, 0.6, 1) infinite',
+              'spin-slow': 'spin 20s linear infinite',
+              fall: 'fall 10s linear infinite',
+            },
+          },
+        },
+      };
+    </script>
+
+    <!-- Ajustes globais de layout / scrollbar -->
+    <style>
+      body {
+        background-color: #000;
+        color: #fff;
+      }
+      ::-webkit-scrollbar {
+        width: 8px;
+      }
+      ::-webkit-scrollbar-track {
+        background: #000;
+      }
+      ::-webkit-scrollbar-thumb {
+        background: #333;
+        border-radius: 4px;
+      }
+      ::-webkit-scrollbar-thumb:hover {
+        background: #555;
+      }
+    </style>
+
+    <!-- CSS adicional do projeto, se estiver usando -->
+    <link rel="stylesheet" href="/index.css" />
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/index.tsx"></script>
+  </body>
+</html>
